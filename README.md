@@ -22,7 +22,7 @@ gvim file.sdc
 *STEP 3*
 
 command: sta
-### Loads the liberty to osu018 standard cell library
+ Loads the liberty to osu018 standard cell library
 i) read_liberty osu018_stdcells.lib
  Reads your synthesized gate-level Verilog netlist
 ii) read_verilog file_synth.v
