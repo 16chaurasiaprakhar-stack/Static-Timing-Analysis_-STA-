@@ -24,12 +24,16 @@ gvim file.sdc
 command: sta
  Loads the liberty to osu018 standard cell library
 i) read_liberty osu018_stdcells.lib
+
  Reads your synthesized gate-level Verilog netlist
 ii) read_verilog file_synth.v
+
  Links the loaded netlist and library to the top module name
 iii) link_design file
+
  Loads your timing constraints from an SDC file
 iv) read_sdc file.sdc
+
  Runs timing analysis to check all timing constraints and generates a report.
 v) report_checks
 
