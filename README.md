@@ -42,7 +42,7 @@ OpenSTA is a static timing analysis (STA) tool used to verify the timing correct
 
 ---
 
-### STEP 3
+### STEP 3    
 
 **Start STA tool:**
 `sta`
